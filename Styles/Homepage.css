@@ -1,0 +1,49 @@
+body{
+	background:#FFD1DC ;
+}
+
+
+.settings-menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #FFD1DC;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-menu a {
+	display: block;
+	text-decoration: none;
+	background-color: #FFD1DC;
+	color: #FFFFFF;
+	padding: 8px 16px;
+	border: 1px solid #FFFFFF;
+	margin-bottom: 5px;
+	border-radius: 4px;
+
+}
+.settings-menu:hover,
+.settings-menu:focus {
+    background: #333333;
+}
+
+.material-icons {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+
+button {
+	 margin-left: auto;
+}
+
+.importButton {
+    background: #FFD1DC;
+    color: #FFFFFF;
+    border-radius: 60px;
+    padding: 5px 200px;
+    border-color: #FFFFFF; 
+}

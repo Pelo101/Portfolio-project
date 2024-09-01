@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kju.t Ebook Reader</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/Homepage.css">
+	<link rel="stylesheet" href="styles/Sidebar.css">
+	<link rel="stylesheet" href="styles/Search.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>	
+<body>
+<header>
+	<div class="header-content">
+	    <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle"/>
+	    <label for="sidebar-toggle" class="book-icon">&#128366;</label>
+	    <button type="button" id="importButton" class="importButton" onclick="importFunction()">Import</button>
+	    <input type="file" id="file" style="display:none;">
+    	<form class="search-container">
+		    <input type="search" name="search" placeholder="Search...">
+	    </form>
+        <i id="settingsIcon" class="material-icons">&#xe8b8;</i>
+   		<div id="settingsMenu" class="settings-menu">
+   		    <a href="Language">Language</a>
+   		    <a href="Themes">Themes</a>
+   		    <a href="Orientation">Orientation</a>
+   		</div>
+   	</div>
+</header>	
+<div class="sidebar active">
+	<a href="#ReadingNow">Reading Now</a>
+	<a href="#AllBooks">All Books</a>
+	<a href="#Favourites">Favourites</a>
+	<a href="#Authors">Authors</a>
+	<a href="#Collections">Collections</a>	
+</div>
+<script src="script-sidebar.js"></script>
+<script src="settings-script.js"></script>
+<script src="import.js"></script>
+</body>
+</html>
+

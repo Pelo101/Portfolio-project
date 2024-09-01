@@ -1,0 +1,65 @@
+header {
+    width: 98%;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-toggle {
+    display: none;
+}
+
+.book-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
+    z-index: 10;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    padding-top: 60px;
+    transition: 0.5s ease;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow-x: hidden;
+    line-height: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+    outline: 0;
+}
+
+.sidebar.active {
+    background: linear-gradient();
+    color:;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    padding-left: 10px
+    padding: 12px;
+    border-color: #FFFFFF;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: 
+    color: 
+    position: relative; 
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.sidebar.open{
+    width: 200px;
+}
