@@ -1,0 +1,25 @@
+:root{
+	-
+
+
+[data-theme="Dark"]{
+	--background-color: #121212;
+	--text-color: #e0e0e0;
+	--link-color: #bb86fc;
+}
+
+[data-theme="Pink"]{
+	-background-color: #FFD1DC;
+	--text-color: #000000;
+	--link-color: #1a0dab;
+}
+
+
+body{
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+a{
+	color: var(--link-color);
+}
