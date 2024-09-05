@@ -33,13 +33,13 @@
 
 
 button {
-	 margin-left: auto;
+	 margin-left: right;
 }
 
 .importButton {
     background: #FFD1DC;
     color: #FFFFFF;
     border-radius: 60px;
-    padding: 5px 200px;
+    padding: 12px 200px;
     border-color: #FFFFFF; 
 }

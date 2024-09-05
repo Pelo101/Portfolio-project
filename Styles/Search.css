@@ -10,9 +10,9 @@
 
 
 .search-container{
-	position: absolute;
-	right: 10px;
-	top: 50%;
+	position: relative;
+	left: 50px;
+	top: 20px;
 	transform: translateY(-50%);
 	width: 200px;
 }

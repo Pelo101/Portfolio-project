@@ -16,8 +16,9 @@ header {
 .book-icon {
     font-size: 30px;
     cursor: pointer;
-    color: #FFFFFF;
-    z-index: 10;
+    color: #5c1d1d;
+    z-index: 10;  
+
 }
 
 .sidebar {
@@ -36,25 +37,25 @@ header {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #FFFFFF;
+    color: #851515;
     display: block;
     transition: background-color 0.3s, color 0.3s;
     outline: 0;
 }
 
 .sidebar.active {
-    background: linear-gradient();
-    color:;
+    background-color: #333;
+    color: #FFFFFF;
     border-top-right-radius: 22px;
     border-bottom-left-radius: 22px;
-    padding-left: 10px
+    padding-left: 10px;
     padding: 12px;
     border-color: #FFFFFF;
 }
 
 .sidebar a:hover:not(.active) {
-    background-color: 
-    color: 
+    background-color:#FFFFFF; 
+    color: #333; 
     position: relative; 
     border-top-right-radius: 22px;
     border-bottom-left-radius: 22px;
